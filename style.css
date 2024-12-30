@@ -183,7 +183,8 @@ h2 {
 }
 
 .project {
-  list-style-type: none;
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .project-card li {
