@@ -7,7 +7,7 @@
   </head>
   <body>
     <!-- Navigation Bar -->
-    <nav>
+    <header>
       <div id="home">
         <div class="profile_name">
             Ruby Howes
@@ -22,21 +22,23 @@
 
         </div>
         </div>
-        <div class="topdiv">
-          <a class="topmenu" href="#about-me">About Me</a>
-          <a class="topmenu" href="#skills">Skills</a>
-          <a class="topmenu" href="#projects">Projects</a>
-          <a class="topmenu" href="#recommendations">Recommendations</a>
+        <nav class="topdiv">
+          <ul>
+            <li><a class="topmenu" href="#about-me">About Me</a></li>
+            <li><a class="topmenu" href="#skills">Skills</a></li>
+            <li><a class="topmenu" href="#projects">Projects</a></li>
+            <li><a class="topmenu" href="#recommendations">Recommendations</a></li>
+          </ul>
           <!-- Add the links for Skills, Projects and Recommendation here -->
 
-        </div>
+        </nav>
       </div>    
-    </nav>
+    </header>
 
     <!-- About Me -->
     <section id="about-me" class="container">
       <div>
-        <img src="https://t3.ftcdn.net/jpg/06/17/13/26/360_F_617132669_YptvM7fIuczaUbYYpMe3VTLimwZwzlWf.jpg" class="profile_image"/>
+        <img src="https://t3.ftcdn.net/jpg/06/17/13/26/360_F_617132669_YptvM7fIuczaUbYYpMe3VTLimwZwzlWf.jpg" class="profile_image" alt="A 3D cartoon of a business woman."/>
       </div>
 
       <div>
@@ -54,46 +56,58 @@
       <h2>Skills</h2>
       <div style="clear:both;"></div>
 
-      <div class="all_skills">
+      <ul class="all_skills">
+        <li>
         <div class="skill">
           <img src="https://cdn-icons-png.flaticon.com/256/919/919827.png"/>
-          <h6>HTML</h6>
-          <p>7 years' experience</p>
-        </div>  
-
-        <div class="skill">
-          <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png"/>
-          <h6>CSS</h6>
+          <h3>HTML</h3>
           <p>7 years' experience</p>
         </div>
+        </li>
 
+        <li>
         <div class="skill">
+          <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-512.png"/>
+          <h3>CSS</h3>
+          <p>7 years' experience</p>
+        </div>
+        </li>
+
+        <li>
+          <div class="skill">
             <img src="https://w7.pngwing.com/pngs/74/183/png-transparent-communication-computer-icons-communication-miscellaneous-text-black-thumbnail.png"/>
-            <h6>Business Communications</h6>
+            <h3>Business Communications</h3>
             <p>10 years' experience</p>
           </div>
+        </li>
 
+          <li>
           <div class="skill">
             <img src="https://cdn-icons-png.flaticon.com/512/4854/4854186.png"/>
-            <h6>Computer Systems</h6>
+            <h3>Computer Systems</h3>
             <p>10+ years' experience</p>
-          </div> 
+          </div>
+          </li>
 
-          <div class="skill">
+          <li>
+            <div class="skill">
             <img src="https://cdn-icons-png.flaticon.com/512/8921/8921081.png"/>
-            <h6>Data Analysis</h6>
+            <h3>Data Analysis</h3>
             <p>5 years' experience</p>
-          </div> 
+          </div>
+          </li>
 
-          <div class="skill">
+          <li>
+            <div class="skill">
             <img src="https://i2.pngimg.me/thumb/f/720/m2H7d3A0d3H7N4A0.jpg"/>
-            <h6>Javascript</h6>
+            <h3>Javascript</h3>
             <p>Just added!</p>
-          </div> 
+          </div>
+          </li>
 
 
 
-      </div>
+      </ul>
     </section>
           
     <!-- Projects -->
@@ -162,8 +176,10 @@
       <div class="flex_center">
         <fieldset>
           <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <label for="name">Name (Optional)</label>
+          <input type="text" id="name" placeholder="Jane Doe"> <br/>
+          <label for="new_recommendation">Message</label>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Tell the world what you loved about working with Ruby..."></textarea>
           <div class="flex_center">
             <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
           </div>
