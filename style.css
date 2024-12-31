@@ -2,10 +2,6 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
-  height: 150px;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -78,6 +74,7 @@ h2 {
   font-size: 1.25rem;
   text-align: center;
   float: left;
+  display: block;
   margin-top: 30px;
   margin-bottom: 20px;
   animation-duration: 5s;
