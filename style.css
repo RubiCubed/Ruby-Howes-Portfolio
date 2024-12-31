@@ -287,10 +287,11 @@ h2 {
 
 .form-container {
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
+  box-shadow: 0 3px 10px gray;
   padding: 20px;
   margin: 10px;
   border:1px solid gray;
+  width: 70%;
 }
 
 input, textarea {
