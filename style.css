@@ -73,8 +73,9 @@ h2 {
   text-align: justify;
   font-size: 1.25rem;
   text-align: left;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 20px;
+  margin-left: 10px;
   animation-duration: 5s;
   position: relative;
 }
@@ -272,7 +273,7 @@ h2 {
   margin-left: 25%;
 }
 
-.popup button:hover {
+.popup button:focus {
   background-color: #138d19;
   border: 1px solid #fff;
   color: white;
@@ -283,6 +284,14 @@ h2 {
 }
 
 /* Recommendation Form */
+
+.form-container {
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+  border:1px solid gray;
+}
 
 input, textarea {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
