@@ -73,8 +73,6 @@ h2 {
   text-align: justify;
   font-size: 1.25rem;
   text-align: left;
-  margin-top: 40px;
-  margin-bottom: 20px;
   margin-left: 10px;
   animation-duration: 5s;
   position: relative;
@@ -311,7 +309,7 @@ fieldset {
   padding: 25px; 
   margin: auto;  
   border: thin solid white;
-  width: 80%;
+  width: 70%;
 }
 
 /* Buttons */
