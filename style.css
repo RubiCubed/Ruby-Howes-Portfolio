@@ -2,6 +2,10 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+  height: 150px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
