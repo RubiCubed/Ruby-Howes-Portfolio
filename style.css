@@ -291,7 +291,8 @@ h2 {
   padding: 20px;
   margin: 10px;
   border:1px solid gray;
-  width: 70%;
+  width: 60%;
+  align: center;
 }
 
 input, textarea {
