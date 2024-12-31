@@ -309,10 +309,9 @@ fieldset {
   align-content: center;
   justify-content: center;  
   padding: 25px; 
-  margin-left: 50px; 
-  margin-right: 50px;   
+  margin: auto;  
   border: thin solid white;
-  width: 50%;
+  width: 80%;
 }
 
 /* Buttons */
