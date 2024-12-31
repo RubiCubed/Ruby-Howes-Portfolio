@@ -213,7 +213,7 @@ h2 {
   margin: 10px;
   border:1px solid gray;
   font-size: 1.2rem;
-  height:150px
+  min-height: 150px;
 }
 
 .recommendation span {
